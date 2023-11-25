@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;background-color: #151515;
+}
+/*подключение шрифтов*/
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-Black.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-Bold.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-Light.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-Medium.ttf);
+}
+.menu1{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.logo img {
+
+    width: 100%;
+}
+.links{
+    display: flex;width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.poisk{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.poisk{
+    width: 25%;
+
+}
+.poisk nav{
+    width: 100%;
+}
+.search-box{
+    width: 100%;
+}
+.search-box form{
+    display: flex;
+    align-items: center;
+}
+.search-box form input{
+    width: 90%;
+    height: 35px;
+    border: 0;
+    border-radius: 27px;
+background: #FFF;
+}
+.search-box form button{
+    background: none;
+    border: 0;
+    width: 20%;height: 70%;
+}
+.search-box form button img{
+    width: 70%;
+    height: 80%;
+}
+.menu1 a{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+
+}
+.fl{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.fl form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+
+}
+.fl form input{
+width: 90%;
+border: 0;
+height: 30px;
+}
+.fl form span{
+    color: #FFF;
+font-family: Mulish;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+margin-top: 30px;
+}
+.head h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+    margin-top: 30px;
+}
+.fl form button{
+    border: 2px solid #520707;
+background: #520707;
+width: 91%;
+height: 35px;
+display: flex;
+justify-content: center;align-items: center;
+margin-top: 50px;
+color: #FFF;
+font-family: Mulish;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+margin-top: 30px;
+}
+main{
+    width: 82%;
+}
+.reg{
+    margin-bottom: 30px;
+}
+.akcia{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.kr{
+    width: 60%;
+    height: 300px;
+    background: #520707;
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.kr .zag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kr .zag h1{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 32px */
+letter-spacing: 0.5px;
+}
+.kr button{
+    margin-bottom: 15px;
+    border-radius: 7px;
+background: #FFF;
+border: 0;
+width: 50%;
+height: 32px;
+color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 20px */
+letter-spacing: 0.5px;
+}
+.kr h1{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 129.5%; /* 41.44px */
+letter-spacing: 0.5px;
+}
+footer{
+    border-top: 1px solid #520707;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.footer__links{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+.footer__links__column{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__links__column a{
+    color: #FFF;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+line-height: 220%;
+}

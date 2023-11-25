@@ -1,0 +1,313 @@
+.film-name{
+    color: #A60A0A;
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+}
+body{
+    background: #151515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*подключение шрифтов*/
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-Black.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-Bold.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-Light.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish/Mulish-Medium.ttf);
+}
+
+.menu1{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poisk{
+    width: 25%;
+
+}
+.poisk nav{
+    width: 100%;
+}
+.search-box{
+    width: 100%;
+}
+.search-box form{
+    display: flex;
+    align-items: center;
+}
+.search-box form input{
+    width: 90%;
+    height: 35px;
+    border: 0;
+    border-radius: 27px;
+background: #FFF;
+}
+.search-box form button{
+    background: none;
+    border: 0;
+    width: 20%;height: 70%;
+}
+.search-box form button img{
+    width: 70%;
+    height: 80%;
+}
+.menu1 a{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+.logo{
+    width: 20%;
+}
+.logo img {
+
+    width: 100%;
+}
+.links{
+    display: flex;width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.poisk{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.poisk{
+    width: 25%;
+
+}
+.poisk nav{
+    width: 100%;
+}
+.search-box{
+    width: 100%;
+}
+.search-box form{
+    display: flex;
+    align-items: center;
+}
+.search-box form input{
+    width: 90%;
+    height: 35px;
+    border: 0;
+    border-radius: 27px;
+background: #FFF;
+}
+.search-box form button{
+    background: none;
+    border: 0;
+    width: 20%;height: 70%;
+}
+.search-box form button img{
+    width: 70%;
+    height: 80%;
+}
+.rr{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+.rr p{
+    color: #FFF;
+font-family: Mulish;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.row p{
+    margin-bottom: 0;
+    color: #FFF;
+font-family: Mulish;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.row h3{
+    color: #FFF;
+font-family: Mulish;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+main{
+    width: 82%;
+}
+.text p{
+    margin-bottom: 0;
+    color: #FFF;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;  
+}
+.video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video video{
+    width: 90%;
+}
+.text .line{
+    background: #A60A0A;
+    height: 2px;
+    width: 100%;
+}
+footer{
+    border-top: 1px solid #520707;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.footer__links{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+.footer__links__column{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__links__column a{
+    color: #FFF;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+line-height: 220%;
+}.in-products{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: 30%;
+}
+.col img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.rr{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.row h5{
+    margin-top: 0;
+}
+.row h3{
+    margin-bottom: 4px;
+}
+.row h3 a{
+    color: #FFF;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+cursor:pointer
+}
+
+a::after{ background-color: #520707; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2.5px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+a:hover:after,
+ a:focus:after {
+    width: 100%;
+}
+.rr p{
+    color: #FFF;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.row h5{
+    color: #FFF;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+p a{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    cursor:pointer
+}
